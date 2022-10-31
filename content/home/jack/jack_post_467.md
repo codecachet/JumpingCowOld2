@@ -1,0 +1,10 @@
+
+---
+weight: 467
+images:
+- https://jumpingcow-images.s3.amazonaws.com/jack/jack_467.png
+title: jack 467
+date: 2022-10-27
+tags:
+- jack
+---

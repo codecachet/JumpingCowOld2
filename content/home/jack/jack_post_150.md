@@ -1,0 +1,10 @@
+
+---
+weight: 150
+images:
+- https://jumpingcow-images.s3.amazonaws.com/jack/jack_150.png
+title: jack 150
+date: 2022-10-27
+tags:
+- jack
+---
