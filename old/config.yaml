@@ -1,0 +1,56 @@
+baseURL: https://jumpingcow.xyz # todo: change site url.
+title: JumpingCow # todo: change site name.
+defaultContentLanguage: 'en'
+theme: eternity_1_4_0
+googleAnalytics: '' # todo: set your analytics id.
+
+params:
+  image: /images/banner.png
+  subtitle: Get wowed! See jack for alittle halloween cheer. # todo: change default subtitle for your website.
+  copyright: All rights reserved. # todo: set your copyright type.
+  author: JumpingCow.xyz  # todo: set your full name.
+  dontShowSource: true # please, do not do this :)
+  portfolio:
+    columns:
+      desktop:
+        nature: 4
+        archive: 6
+        people: 2
+        default: 3
+      mobile:
+        default: 1
+        archive: 1
+        people: 1
+  socials:
+  
+  homepage: "/home" # homepage link, mostly same with menu.main[0]
+  specialPages:
+    - home
+    - archive
+  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
+  plausible: 'jumpingcow.xyz' # todo: set your plausible id.
+  disableRadius: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  work: ":filename/"
+
+menu:
+  main:
+    - name: home
+      url: /home/
+      weight: 1
+    - name: jack
+      url: /tags/jack/
+      weight: 2
+    - name: about
+      url: /about
+      weight: 3
